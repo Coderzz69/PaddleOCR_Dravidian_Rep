@@ -1,0 +1,209 @@
+# Dataset Audit Report
+
+## Overall Statistics
+- **Total Labels:** 80022
+- **Valid Labels:** 79862
+- **Invalid Labels:** 160
+- **Percentage Retained:** 99.80%
+
+## Dictionary & Grapheme Stats
+- **Total Grapheme Vocabulary:** 355
+- **Dictionary Size (Valid Tokens):** 355
+- **Average Graphemes per Label:** 4.76
+- **Maximum Graphemes per Label:** 50
+- **Average Unicode Code Points per Grapheme:** 1.67
+- **Maximum Unicode Code Points per Grapheme:** 2
+- **Longest Grapheme Cluster:** `ரி` (2 codepoints)
+- **Number of Suspicious Graphemes Discovered:** 160
+- **Number of Encoding Artifacts Discovered:** 0
+
+## Top 100 Valid Graphemes
+- `க`: 14565
+- `ன்`: 13210
+- `ம்`: 12615
+- `க்`: 11269
+- `த`: 9991
+- `வ`: 9597
+- `த்`: 9358
+- `ல்`: 8911
+- `து`: 8725
+- `அ`: 7944
+- `.`: 7729
+- `ந்`: 7388
+- `ரு`: 7204
+- `ர்`: 7166
+- `ப`: 6910
+- `ப்`: 6747
+- `தி`: 6547
+- `கு`: 5788
+- `ய`: 5522
+- `ள்`: 5251
+- `டு`: 5164
+- `எ`: 5054
+- `ட்`: 5037
+- `இ`: 4736
+- `ட`: 4631
+- `ண்`: 4555
+- `வி`: 4418
+- `ர`: 4410
+- `ம`: 4181
+- `டி`: 4150
+- `கி`: 4096
+- `ன`: 3865
+- `,`: 3755
+- `ங்`: 3564
+- `று`: 3527
+- `தா`: 3456
+- `ற்`: 3185
+- `ற`: 3042
+- `மா`: 2841
+- `ல`: 2834
+- `கா`: 2667
+- `ச`: 2652
+- `போ`: 2519
+- `யி`: 2458
+- `உ`: 2452
+- `ரி`: 2447
+- `யா`: 2376
+- `கொ`: 2357
+- `மு`: 2354
+- `பா`: 2294
+- `ய்`: 2276
+- `பி`: 2254
+- `சி`: 2145
+- `வா`: 1950
+- `ச்`: 1921
+- `லை`: 1901
+- `றி`: 1720
+- `பு`: 1708
+- `டை`: 1689
+- `தை`: 1652
+- `வே`: 1639
+- `னா`: 1629
+- `செ`: 1628
+- `ள`: 1592
+- `ஆ`: 1582
+- `யு`: 1577
+- `ளை`: 1554
+- `ஒ`: 1495
+- `நா`: 1489
+- `னை`: 1447
+- `ந`: 1443
+- `டா`: 1422
+- `லி`: 1418
+- `ண`: 1396
+- `ளி`: 1396
+- `"`: 1393
+- `லா`: 1361
+- `ளு`: 1318
+- `வு`: 1317
+- `றா`: 1300
+- `னு`: 1284
+- `!`: 1215
+- `நி`: 1180
+- `லு`: 1152
+- `?`: 1112
+- `ரா`: 1070
+- `தே`: 1055
+- `பெ`: 1030
+- `கை`: 973
+- `சொ`: 970
+- `னி`: 922
+- `மி`: 906
+- `கே`: 904
+- `சு`: 890
+- `ழு`: 878
+- `ரை`: 861
+- `மை`: 837
+- `யை`: 832
+- `கூ`: 821
+- `ணி`: 808
+
+## Top 100 Invalid Graphemes
+- `கிாீ` (Suspicious Annotation): 18 - Repeated/multiple vowel signs
+- `ம்்` (Suspicious Annotation): 12 - Repeated viramas
+- `து்` (Suspicious Annotation): 9 - Virama and vowel sign on the same base character
+- `பாீ` (Suspicious Annotation): 6 - Repeated/multiple vowel signs
+- `ன்்` (Suspicious Annotation): 6 - Repeated viramas
+- `லை்` (Suspicious Annotation): 4 - Virama and vowel sign on the same base character
+- `"்` (Suspicious Annotation): 4 - Combining mark applied to punctuation/symbol
+- `ட்்` (Suspicious Annotation): 4 - Repeated viramas
+- `ப்ா` (Suspicious Annotation): 3 - Virama and vowel sign on the same base character
+- `யுை` (Suspicious Annotation): 3 - Repeated/multiple vowel signs
+- `பாா` (Suspicious Annotation): 3 - Duplicated combining marks
+- `ள்்` (Suspicious Annotation): 3 - Repeated viramas
+- `னாா` (Suspicious Annotation): 2 - Duplicated combining marks
+- `திாீ` (Suspicious Annotation): 2 - Repeated/multiple vowel signs
+- `,்` (Suspicious Annotation): 2 - Combining mark applied to punctuation/symbol
+- `னே்` (Suspicious Annotation): 2 - Virama and vowel sign on the same base character
+- `ல்ா` (Suspicious Annotation): 2 - Virama and vowel sign on the same base character
+- `னி்` (Suspicious Annotation): 2 - Virama and vowel sign on the same base character
+- `திு` (Suspicious Annotation): 2 - Repeated/multiple vowel signs
+- `சுா` (Suspicious Annotation): 2 - Repeated/multiple vowel signs
+- `க்ா` (Suspicious Annotation): 2 - Virama and vowel sign on the same base character
+- `வாா` (Suspicious Annotation): 2 - Duplicated combining marks
+- `யிா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `ண்ா` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `யிை` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `லெ்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `எ்` (Suspicious Annotation): 1 - Combining marks applied to independent vowel
+- `தாீ` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `எா` (Suspicious Annotation): 1 - Combining marks applied to independent vowel
+- `ணுாே` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `டு்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `றாா` (Suspicious Annotation): 1 - Duplicated combining marks
+- `ழி்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `தி்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `னு்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `ஐி` (Suspicious Annotation): 1 - Combining marks applied to independent vowel
+- `வெ்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `ல்ி` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `லைை` (Suspicious Annotation): 1 - Duplicated combining marks
+- `ண்்` (Suspicious Annotation): 1 - Repeated viramas
+- `லே்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `த்்` (Suspicious Annotation): 1 - Repeated viramas
+- `யைு` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `ணீ்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `ணிு` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `வி்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `'்` (Suspicious Annotation): 1 - Combining mark applied to punctuation/symbol
+- `ர்்` (Suspicious Annotation): 1 - Repeated viramas
+- `ஞு்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `ஞ்்` (Suspicious Annotation): 1 - Repeated viramas
+- `னைேைே` (Suspicious Annotation): 1 - Duplicated combining marks
+- `மை்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `ல்்` (Suspicious Annotation): 1 - Repeated viramas
+- `லி்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `துா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `ப்்` (Suspicious Annotation): 1 - Repeated viramas
+- `ச்்` (Suspicious Annotation): 1 - Repeated viramas
+- `யாை` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `ரு்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `லுா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `யாைே` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `ன்ு` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `ணாை` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `கிா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `ளே்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `பாாே` (Suspicious Annotation): 1 - Duplicated combining marks
+- `இ்` (Suspicious Annotation): 1 - Combining marks applied to independent vowel
+- `யிு` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `னுா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `றைை` (Suspicious Annotation): 1 - Duplicated combining marks
+- `க்ை` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `்` (Suspicious Annotation): 1 - Isolated combining mark (no base character)
+- `த்ி` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `ளி்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `ற்்` (Suspicious Annotation): 1 - Repeated viramas
+- `விி` (Suspicious Annotation): 1 - Duplicated combining marks
+- `றிா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `டிா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `கூா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `டிை` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `த்ா` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `றுு` (Suspicious Annotation): 1 - Duplicated combining marks
+- `தொூூூு` (Suspicious Annotation): 1 - Extremely long grapheme cluster (6 codepoints)
+- `சோ்` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `திா` (Suspicious Annotation): 1 - Repeated/multiple vowel signs
+- `ப்ை` (Suspicious Annotation): 1 - Virama and vowel sign on the same base character
+- `காை` (Suspicious Annotation): 1 - Repeated/multiple vowel signs

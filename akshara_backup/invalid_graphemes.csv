@@ -1,0 +1,88 @@
+Grapheme,Unicode_Hex,Unicode_Names,Frequency,Classification,Reason,Example_Labels
+கிாீ,U+0B95 U+0BBF U+0BBE U+0BC0,TAMIL LETTER KA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN II,18,Suspicious Annotation,Repeated/multiple vowel signs,"images/39946.png	சுக்கிாீவனது || images/40103.png	சுக்கிாீவனும் || images/40132.png	சுக்கிாீவன்,"
+ம்்,U+0BAE U+0BCD U+0BCD,TAMIL LETTER MA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,12,Suspicious Annotation,Repeated viramas,"images/12680.png	""ஆமாம்் || images/19456.png	யாரும்் || images/20403.png	உயரம்்"
+து்,U+0BA4 U+0BC1 U+0BCD,TAMIL LETTER TA + TAMIL VOWEL SIGN U + TAMIL SIGN VIRAMA,9,Suspicious Annotation,Virama and vowel sign on the same base character,images/13411.png	கவிழ்ந்தது் || images/14210.png	படுது்தக்கூடிய || images/14383.png	இருக்கிறது்
+பாீ,U+0BAA U+0BBE U+0BC0,TAMIL LETTER PA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN II,6,Suspicious Annotation,Repeated/multiple vowel signs,images/12559.png	பாீட்சைக்குப் || images/12560.png	பாீட்சை || images/13491.png	பாீட்சையிலும்
+ன்்,U+0BA9 U+0BCD U+0BCD,TAMIL LETTER NNNA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,6,Suspicious Annotation,Repeated viramas,images/20476.png	இளைஞன்் || images/21391.png	கொண்டான்் || images/23952.png	தோற்றம்தான்்
+லை்,U+0BB2 U+0BC8 U+0BCD,TAMIL LETTER LA + TAMIL VOWEL SIGN AI + TAMIL SIGN VIRAMA,4,Suspicious Annotation,Virama and vowel sign on the same base character,images/12814.png	இல்லை் || images/13889.png	ஒன்றுமில்லை் || images/20990.png	பொருளுமில்லை்
+"""்",U+0022 U+0BCD,QUOTATION MARK + TAMIL SIGN VIRAMA,4,Suspicious Annotation,Combining mark applied to punctuation/symbol,"images/13280.png	ரோமா""்சனத்தை || images/21918.png	படிக்கிறாள""் || images/24473.png	வேண்டாமஸ""்"
+ட்்,U+0B9F U+0BCD U+0BCD,TAMIL LETTER TTA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,4,Suspicious Annotation,Repeated viramas,"images/20236.png	விட்்டு, || images/23041.png	திறந்துவிட்்டு, || images/28912.png	சாஃப்ட்்வேர்"
+ப்ா,U+0BAA U+0BCD U+0BBE,TAMIL LETTER PA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN AA,3,Suspicious Annotation,Virama and vowel sign on the same base character,images/7413.png	ப்ாஹ்மணர் || images/57987.png	நினைப்ா?“ || images/60181.png	எப்ாதோ
+யுை,U+0BAF U+0BC1 U+0BC8,TAMIL LETTER YA + TAMIL VOWEL SIGN U + TAMIL VOWEL SIGN AI,3,Suspicious Annotation,Repeated/multiple vowel signs,"images/7936.png	மகளியுைம், || images/9449.png	அத்தீயையுைம் || images/71830.png	அழயுைம்,"
+பாா,U+0BAA U+0BBE U+0BBE,TAMIL LETTER PA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AA,3,Suspicious Annotation,Duplicated combining marks,images/11763.png	பாாக்க || images/23850.png	திரும்பாாமல் || images/74005.png	பாாத்துவிட்டுக்
+ள்்,U+0BB3 U+0BCD U+0BCD,TAMIL LETTER LLA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,3,Suspicious Annotation,Repeated viramas,images/13886.png	விடுங்கள்் || images/24039.png	தள்ளுங்கள்் || images/39941.png	இருங்கள்்
+னாா,U+0BA9 U+0BBE U+0BBE,TAMIL LETTER NNNA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AA,2,Suspicious Annotation,Duplicated combining marks,images/10813.png	வரனாாகத் || images/60644.png	வருந்தினாா.
+திாீ,U+0BA4 U+0BBF U+0BBE U+0BC0,TAMIL LETTER TA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN II,2,Suspicious Annotation,Repeated/multiple vowel signs,images/11260.png	ஸ்திாீயும் || images/12973.png	ஸ்திாீ
+",்",U+002C U+0BCD,COMMA + TAMIL SIGN VIRAMA,2,Suspicious Annotation,Combining mark applied to punctuation/symbol,"images/12122.png	பெண்,் || images/19421.png	திரும்பவில்லை,்"
+னே்,U+0BA9 U+0BC7 U+0BCD,TAMIL LETTER NNNA + TAMIL VOWEL SIGN EE + TAMIL SIGN VIRAMA,2,Suspicious Annotation,Virama and vowel sign on the same base character,"images/12474.png	கிறனே். || images/45178.png	வந்தவுடனே்,"
+ல்ா,U+0BB2 U+0BCD U+0BBE,TAMIL LETTER LA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN AA,2,Suspicious Annotation,Virama and vowel sign on the same base character,images/16167.png	எல்ாம் || images/76499.png	மறவெல்ாம்
+னி்,U+0BA9 U+0BBF U+0BCD,TAMIL LETTER NNNA + TAMIL VOWEL SIGN I + TAMIL SIGN VIRAMA,2,Suspicious Annotation,Virama and vowel sign on the same base character,images/19825.png	அவனி்டம் || images/27409.png	கணிப்பொறயினி்
+திு,U+0BA4 U+0BBF U+0BC1,TAMIL LETTER TA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN U,2,Suspicious Annotation,Repeated/multiple vowel signs,"images/20209.png	புதிுயவிழிகளோடு || images/29112.png	பகுதிுயிலும்,"
+சுா,U+0B9A U+0BC1 U+0BBE,TAMIL LETTER CA + TAMIL VOWEL SIGN U + TAMIL VOWEL SIGN AA,2,Suspicious Annotation,Repeated/multiple vowel signs,images/22865.png	சுாரதாவுக்கு || images/23434.png	சுாவை
+க்ா,U+0B95 U+0BCD U+0BBE,TAMIL LETTER KA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN AA,2,Suspicious Annotation,Virama and vowel sign on the same base character,"images/37042.png	ஆயிரக்கணக்ான || images/76255.png	விற்றதற்க்ாகவும்,"
+வாா,U+0BB5 U+0BBE U+0BBE,TAMIL LETTER VA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AA,2,Suspicious Annotation,Duplicated combining marks,images/40902.png	வாாத்தைகளைக் || images/79992.png	கேள்விப்படுவாானால்
+யிா,U+0BAF U+0BBF U+0BBE,TAMIL LETTER YA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,images/7442.png	மயிா
+ண்ா,U+0BA3 U+0BCD U+0BBE,TAMIL LETTER NNA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/8517.png	பேசவேண்ாம்.
+யிை,U+0BAF U+0BBF U+0BC8,TAMIL LETTER YA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Repeated/multiple vowel signs,images/8774.png	பரம்பயிைலேயே
+லெ்,U+0BB2 U+0BC6 U+0BCD,TAMIL LETTER LA + TAMIL VOWEL SIGN E + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/12333.png	இலெ்லாம்
+எ்,U+0B8E U+0BCD,TAMIL LETTER E + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Combining marks applied to independent vowel,images/12823.png	எல்லாகஎ்
+தாீ,U+0BA4 U+0BBE U+0BC0,TAMIL LETTER TA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN II,1,Suspicious Annotation,Repeated/multiple vowel signs,images/13702.png	ஸ்தாீகள்
+எா,U+0B8E U+0BBE,TAMIL LETTER E + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Combining marks applied to independent vowel,images/14372.png	எானே
+ணுாே,U+0BA3 U+0BC1 U+0BBE U+0BC7,TAMIL LETTER NNA + TAMIL VOWEL SIGN U + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN EE,1,Suspicious Annotation,Repeated/multiple vowel signs,images/14466.png	பிரணுாேஜனம்?
+டு்,U+0B9F U+0BC1 U+0BCD,TAMIL LETTER TTA + TAMIL VOWEL SIGN U + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/14590.png	வேண்டு்ம்.
+றாா,U+0BB1 U+0BBE U+0BBE,TAMIL LETTER RRA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Duplicated combining marks,images/17106.png	கிறாாகளாம்.
+ழி்,U+0BB4 U+0BBF U+0BCD,TAMIL LETTER LLLA + TAMIL VOWEL SIGN I + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/19844.png	விழி்ப்பதைப்
+தி்,U+0BA4 U+0BBF U+0BCD,TAMIL LETTER TA + TAMIL VOWEL SIGN I + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/20061.png	கவனித்ததி்ல்லை
+னு்,U+0BA9 U+0BC1 U+0BCD,TAMIL LETTER NNNA + TAMIL VOWEL SIGN U + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/20067.png	அவனு்ககுத்
+ஐி,U+0B90 U+0BBF,TAMIL LETTER AI + TAMIL VOWEL SIGN I,1,Suspicious Annotation,Combining marks applied to independent vowel,images/20426.png	ஙஇன்ஐினியரிங்
+வெ்,U+0BB5 U+0BC6 U+0BCD,TAMIL LETTER VA + TAMIL VOWEL SIGN E + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/20741.png	வெ்வவேறு
+ல்ி,U+0BB2 U+0BCD U+0BBF,TAMIL LETTER LA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN I,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/20848.png	நடமாடியிருந்தால்ி
+லைை,U+0BB2 U+0BC8 U+0BC8,TAMIL LETTER LA + TAMIL VOWEL SIGN AI + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Duplicated combining marks,images/21643.png	அண்ணாமலைை
+ண்்,U+0BA3 U+0BCD U+0BCD,TAMIL LETTER NNA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Repeated viramas,images/21690.png	கூவிக்கொண்்டே
+லே்,U+0BB2 U+0BC7 U+0BCD,TAMIL LETTER LA + TAMIL VOWEL SIGN EE + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/21908.png	விருந்தில்லே்
+த்்,U+0BA4 U+0BCD U+0BCD,TAMIL LETTER TA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Repeated viramas,images/21975.png	நடத்்தவேண்டும்.
+யைு,U+0BAF U+0BC8 U+0BC1,TAMIL LETTER YA + TAMIL VOWEL SIGN AI + TAMIL VOWEL SIGN U,1,Suspicious Annotation,Repeated/multiple vowel signs,images/22334.png	செய்தியைும்
+ணீ்,U+0BA3 U+0BC0 U+0BCD,TAMIL LETTER NNA + TAMIL VOWEL SIGN II + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/22562.png	கண்ணீ்ர்
+ணிு,U+0BA3 U+0BBF U+0BC1,TAMIL LETTER NNA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN U,1,Suspicious Annotation,Repeated/multiple vowel signs,images/22751.png	மாணிுக்கத்தின்
+வி்,U+0BB5 U+0BBF U+0BCD,TAMIL LETTER VA + TAMIL VOWEL SIGN I + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/22869.png	ஏற்படவி்ல்லை.
+'்,U+0027 U+0BCD,APOSTROPHE + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Combining mark applied to punctuation/symbol,images/23450.png	போனோமஸ'்
+ர்்,U+0BB0 U+0BCD U+0BCD,TAMIL LETTER RA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Repeated viramas,images/23913.png	கொடுத்திருக்கிறார்்
+ஞு்,U+0B9E U+0BC1 U+0BCD,TAMIL LETTER NYA + TAMIL VOWEL SIGN U + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/24867.png	கலைஞு்ர்
+ஞ்்,U+0B9E U+0BCD U+0BCD,TAMIL LETTER NYA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Repeated viramas,images/26434.png	அமர்திநெஞ்்சே.
+னைேைே,U+0BA9 U+0BC8 U+0BC7 U+0BC8 U+0BC7,TAMIL LETTER NNNA + TAMIL VOWEL SIGN AI + TAMIL VOWEL SIGN EE + TAMIL VOWEL SIGN AI + TAMIL VOWEL SIGN EE,1,Suspicious Annotation,Duplicated combining marks,images/26665.png	அயனநனைேைேயை.உடிஅ
+மை்,U+0BAE U+0BC8 U+0BCD,TAMIL LETTER MA + TAMIL VOWEL SIGN AI + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/26893.png	மை்கரோசாஃப்ட்
+ல்்,U+0BB2 U+0BCD U+0BCD,TAMIL LETTER LA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Repeated viramas,images/27016.png	பண்புகளில்்
+லி்,U+0BB2 U+0BBF U+0BCD,TAMIL LETTER LA + TAMIL VOWEL SIGN I + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,"images/27725.png	டி-லி்ங்க்,"
+துா,U+0BA4 U+0BC1 U+0BBE,TAMIL LETTER TA + TAMIL VOWEL SIGN U + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,images/28120.png	துாண்டும்
+ப்்,U+0BAA U+0BCD U+0BCD,TAMIL LETTER PA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Repeated viramas,images/28201.png	பயன்படுத்தப்்படுகினற
+ச்்,U+0B9A U+0BCD U+0BCD,TAMIL LETTER CA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Repeated viramas,images/28223.png	மிகச்்சிறிய
+யாை,U+0BAF U+0BBE U+0BC8,TAMIL LETTER YA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Repeated/multiple vowel signs,images/28392.png	விளயாைட்டுகளுக்
+ரு்,U+0BB0 U+0BC1 U+0BCD,TAMIL LETTER RA + TAMIL VOWEL SIGN U + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/28531.png	விரு்பபதினை
+லுா,U+0BB2 U+0BC1 U+0BBE,TAMIL LETTER LA + TAMIL VOWEL SIGN U + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,images/29408.png	கல்லுாரி
+யாைே,U+0BAF U+0BBE U+0BC8 U+0BC7,TAMIL LETTER YA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AI + TAMIL VOWEL SIGN EE,1,Suspicious Annotation,Repeated/multiple vowel signs,images/30210.png	உரியாைேடு
+ன்ு,U+0BA9 U+0BCD U+0BC1,TAMIL LETTER NNNA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN U,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/30966.png	கும்பலன்ு
+ணாை,U+0BA3 U+0BBE U+0BC8,TAMIL LETTER NNA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Repeated/multiple vowel signs,images/32839.png	கருணாைய்ச்
+கிா,U+0B95 U+0BBF U+0BBE,TAMIL LETTER KA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,images/39751.png	இறங்கிானல்
+ளே்,U+0BB3 U+0BC7 U+0BCD,TAMIL LETTER LLA + TAMIL VOWEL SIGN EE + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/40502.png	களே்
+பாாே,U+0BAA U+0BBE U+0BBE U+0BC7,TAMIL LETTER PA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN EE,1,Suspicious Annotation,Duplicated combining marks,images/40525.png	பாாேத்திய
+இ்,U+0B87 U+0BCD,TAMIL LETTER I + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Combining marks applied to independent vowel,images/40990.png	இ்டங்களிலும்
+யிு,U+0BAF U+0BBF U+0BC1,TAMIL LETTER YA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN U,1,Suspicious Annotation,Repeated/multiple vowel signs,images/41124.png	வழியிுனை
+னுா,U+0BA9 U+0BC1 U+0BBE,TAMIL LETTER NNNA + TAMIL VOWEL SIGN U + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,"images/41143.png	அனுான்,"
+றைை,U+0BB1 U+0BC8 U+0BC8,TAMIL LETTER RRA + TAMIL VOWEL SIGN AI + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Duplicated combining marks,images/42231.png	பளைறைைந்தால்போல்
+க்ை,U+0B95 U+0BCD U+0BC8,TAMIL LETTER KA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/42684.png	கல்லாதவக்ை
+்,U+0BCD,TAMIL SIGN VIRAMA,1,Suspicious Annotation,Isolated combining mark (no base character),images/44779.png	்எனக்கு
+த்ி,U+0BA4 U+0BCD U+0BBF,TAMIL LETTER TA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN I,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/54776.png	த்ிருவிழாவில
+ளி்,U+0BB3 U+0BBF U+0BCD,TAMIL LETTER LLA + TAMIL VOWEL SIGN I + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/55235.png	அவர்களி்ல்
+ற்்,U+0BB1 U+0BCD U+0BCD,TAMIL LETTER RRA + TAMIL SIGN VIRAMA + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Repeated viramas,images/55255.png	செயற்்படுத்தி
+விி,U+0BB5 U+0BBF U+0BBF,TAMIL LETTER VA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN I,1,Suspicious Annotation,Duplicated combining marks,images/55283.png	விி.
+றிா,U+0BB1 U+0BBF U+0BBE,TAMIL LETTER RRA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,images/55765.png	இருக்றிார்கள்.
+டிா,U+0B9F U+0BBF U+0BBE,TAMIL LETTER TTA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,images/58021.png	வியக்கும்படிாக
+கூா,U+0B95 U+0BC2 U+0BBE,TAMIL LETTER KA + TAMIL VOWEL SIGN UU + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,images/60665.png	கூாண
+டிை,U+0B9F U+0BBF U+0BC8,TAMIL LETTER TTA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Repeated/multiple vowel signs,images/60690.png	அத்டிைத
+த்ா,U+0BA4 U+0BCD U+0BBE,TAMIL LETTER TA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Virama and vowel sign on the same base character,"images/61177.png	வைத்திருந்த்ால்,"
+றுு,U+0BB1 U+0BC1 U+0BC1,TAMIL LETTER RRA + TAMIL VOWEL SIGN U + TAMIL VOWEL SIGN U,1,Suspicious Annotation,Duplicated combining marks,images/66911.png	ஆறுு
+தொூூூு,U+0BA4 U+0BCA U+0BC2 U+0BC2 U+0BC2 U+0BC1,TAMIL LETTER TA + TAMIL VOWEL SIGN O + TAMIL VOWEL SIGN UU + TAMIL VOWEL SIGN UU + TAMIL VOWEL SIGN UU + TAMIL VOWEL SIGN U,1,Suspicious Annotation,Extremely long grapheme cluster (6 codepoints),images/66912.png	தொூூூுதிகளூம்
+சோ்,U+0B9A U+0BCB U+0BCD,TAMIL LETTER CA + TAMIL VOWEL SIGN OO + TAMIL SIGN VIRAMA,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/66913.png	சோ்ந்து
+திா,U+0BA4 U+0BBF U+0BBE,TAMIL LETTER TA + TAMIL VOWEL SIGN I + TAMIL VOWEL SIGN AA,1,Suspicious Annotation,Repeated/multiple vowel signs,images/72783.png	இருபத்திாலாவது
+ப்ை,U+0BAA U+0BCD U+0BC8,TAMIL LETTER PA + TAMIL SIGN VIRAMA + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Virama and vowel sign on the same base character,images/79785.png	மயிப்ை
+காை,U+0B95 U+0BBE U+0BC8,TAMIL LETTER KA + TAMIL VOWEL SIGN AA + TAMIL VOWEL SIGN AI,1,Suspicious Annotation,Repeated/multiple vowel signs,images/79949.png	போங்காை

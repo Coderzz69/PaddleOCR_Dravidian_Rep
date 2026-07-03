@@ -23,6 +23,9 @@
 
 </div>
 
+> **🔀 Ce dépôt est le fork Dravidien/Tamoul Akshara de PaddleOCR**, adapté pour la reconnaissance du tamoul à l'aide de la tokenisation en clusters de graphèmes Unicode (Akshara).
+> Pour la documentation spécifique au fork, consultez le [README principal](../README.md), le [guide d'entraînement Akshara](../README_AKSHARA.md) et les [notes d'architecture](../architecture.md).
+
 
 
 

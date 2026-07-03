@@ -31,7 +31,9 @@ The current project data layer is file-based:
 | `train_data/train_list.txt` | Small smoke-training label list. |
 | `train_data/val_list.txt` | Small smoke-evaluation label list. |
 | `train_data/smoke/*.png` | Local smoke-training images copied from test fixtures. |
+| `train_data/indic_mozhi_tamil/` | Default converted remote-training dataset location for `darknight054/indic-mozhi-ocr`, config `tamil`. |
 | `output/akshara_finetune_smoke/` | Fine-tune smoke-run checkpoints, states, config copy, and training log. |
+| `remote_gpu_execution/` | Four-file remote cluster workflow plus README. |
 
 Dictionary integrity:
 
@@ -160,6 +162,36 @@ The current smoke dataset is intentionally minimal and exists only to verify fin
 - Output directory: `output/akshara_finetune_smoke/`
 
 The smoke run proves that Akshara tokenization, pretrained Tamil weight loading, model construction, forward pass, losses, dataloading, evaluation, and checkpoint saving are wired correctly. It is not a model-quality run.
+
+## Remote GPU Data Flow
+
+The remote execution workflow is intentionally external to PaddleOCR internals.
+It does not modify model code, configs, or dictionary contents at runtime.
+
+The runnable files are:
+
+| File | Responsibility |
+| --- | --- |
+| `remote_gpu_execution/setup.sh` | Login-node setup with internet: clone/pull repo, install Paddle GPU, download Tamil pretrained weights, run dataset conversion and sanity checks. |
+| `remote_gpu_execution/download_dataset.py` | Downloads `darknight054/indic-mozhi-ocr` with config `tamil` and writes PaddleOCR label files under `train_data/indic_mozhi_tamil/`. |
+| `remote_gpu_execution/sanity_check.py` | Verifies required paths, dictionary size, Paddle import, CUDA visibility when present, and the first training label. |
+| `remote_gpu_execution/train.py` | SLURM-ready compute-node entry point; runs training and exports the model. |
+
+Default training labels for the remote workflow:
+
+```text
+train_data/indic_mozhi_tamil/train_list.txt
+train_data/indic_mozhi_tamil/val_list.txt
+```
+
+Default exported model:
+
+```text
+inference/akshara_tamil_rec/
+```
+
+CPU smoke verification of this workflow completed successfully with a one-sample
+Hugging Face Tamil subset and a local mini training run.
 
 ## Runtime Environment
 

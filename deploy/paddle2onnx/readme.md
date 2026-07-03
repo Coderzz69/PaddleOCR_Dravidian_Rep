@@ -1,3 +1,5 @@
+> **🔀 This repository is the PaddleOCR Dravidian fork for Tamil/Dravidian Akshara recognition.** The documentation below is from upstream PaddleOCR and may not reflect fork-specific changes. For fork-specific docs, see the [main README](/README.md) and [Akshara training guide](/README_AKSHARA.md).
+
 # Paddle2ONNX model transformation and prediction
 
 This chapter describes how the PaddleOCR model is converted into an ONNX model and predicted based on the ONNXRuntime engine.

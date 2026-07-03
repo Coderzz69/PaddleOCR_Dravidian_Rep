@@ -24,6 +24,8 @@
 
 </div>
 
+> **🔀 本倉庫是 PaddleOCR 的達羅毗荼語/泰米爾語 Akshara 分支**，使用 Unicode 字形簇（Akshara）分詞進行泰米爾語識別。
+> 有關分支特有的文檔，請參閱 [主 README](../README.md)、[Akshara 訓練指南](../README_AKSHARA.md) 和 [架構說明](../architecture.md)。
 
 
 

@@ -24,6 +24,9 @@
 
 </div>
 
+> **🔀 이 저장소는 PaddleOCR의 드라비다어/타밀어 Akshara 포크입니다.** 유니코드 자소 클러스터(Akshara) 토크나이제이션을 사용한 타밀어 인식에 적응되었습니다.
+> 포크 관련 문서는 [메인 README](../README.md), [Akshara 학습 가이드](../README_AKSHARA.md), [아키텍처 노트](../architecture.md)를 참조하세요.
+
 
 
 

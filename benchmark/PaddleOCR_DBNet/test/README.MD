@@ -1,3 +1,5 @@
+> **🔀 This repository is the PaddleOCR Dravidian fork for Tamil/Dravidian Akshara recognition.** The documentation below is from upstream PaddleOCR and may not reflect fork-specific changes. For fork-specific docs, see the [main README](/README.md) and [Akshara training guide](/README_AKSHARA.md).
+
 Place the images that you want to detect here. You better named them as such:
 img_10.jpg
 img_11.jpg

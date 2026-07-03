@@ -1,3 +1,5 @@
+> **🔀 This repository is the PaddleOCR Dravidian fork for Tamil/Dravidian Akshara recognition.** The documentation below is from upstream PaddleOCR and may not reflect fork-specific changes. For fork-specific docs, see the [main README](/README.md) and [Akshara training guide](/README_AKSHARA.md).
+
 [English](readme_en.md) | 简体中文
 
 - [基于PaddleHub Serving的服务部署](#基于paddlehub-serving的服务部署)

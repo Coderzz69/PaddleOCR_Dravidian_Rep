@@ -24,6 +24,9 @@
 
 </div>
 
+> **🔀 本リポジトリは PaddleOCR のドラヴィダ語/タミル語 Akshara フォークです。** Unicode 書記素クラスター（Akshara）トークン化によるタミル語認識に対応しています。
+> フォーク固有のドキュメントは [メインREADME](../README.md)、[Akshara トレーニングガイド](../README_AKSHARA.md)、[アーキテクチャノート](../architecture.md) を参照してください。
+
 
 
 

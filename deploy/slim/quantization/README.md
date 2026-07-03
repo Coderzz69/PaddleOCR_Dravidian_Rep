@@ -1,3 +1,5 @@
+> **🔀 This repository is the PaddleOCR Dravidian fork for Tamil/Dravidian Akshara recognition.** The documentation below is from upstream PaddleOCR and may not reflect fork-specific changes. For fork-specific docs, see the [main README](/README.md) and [Akshara training guide](/README_AKSHARA.md).
+
 
 # PP-OCR模型量化
 复杂的模型有利于提高模型的性能，但也导致模型中存在一定冗余，模型量化将全精度缩减到定点数减少这种冗余，达到减少模型计算复杂度，提高模型推理性能的目的。

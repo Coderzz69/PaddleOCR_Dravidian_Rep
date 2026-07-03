@@ -1,25 +1,27 @@
 
 <div align="center">
   <p>
-      <img width="800" src="https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png" alt="Star-history">
+      <img width="800" src="https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png" alt="PaddleOCR Banner">
   </p>
 
 
 
-<h3>Global Leading OCR Toolkit & Document AI Engine</h3>
+<h3>PaddleOCR Dravidian Fork — Tamil / Dravidian Akshara Recognition</h3>
+
+<p><em>A fork of <a href="https://github.com/PaddlePaddle/PaddleOCR">PaddleOCR</a> adapted for Tamil and Dravidian script recognition using Unicode grapheme cluster (Akshara) tokenization.</em></p>
 
 English | [简体中文](./readme/README_cn.md) | [繁體中文](./readme/README_tcn.md) | [日本語](./readme/README_ja.md) | [한국어](./readme/README_ko.md) | [Français](./readme/README_fr.md) | [Русский](./readme/README_ru.md) | [Español](./readme/README_es.md) | [العربية](./readme/README_ar.md)
 
 <!-- icon -->
 
+![Fork](https://img.shields.io/badge/fork-Dravidian%20Akshara-orange)
+![Tokenizer](https://img.shields.io/badge/tokenizer-Unicode%20Grapheme%20Clusters-blueviolet)
+![Dictionary](https://img.shields.io/badge/dictionary-355%20tokens-brightgreen)
 [![PyPI Downloads](https://static.pepy.tech/badge/paddleocr)](https://pepy.tech/projects/paddleocr)
-[![Used by](https://img.shields.io/badge/Used%20by-6k%2B%20repositories-blue)](https://github.com/PaddlePaddle/PaddleOCR/network/dependents)
 ![python](https://img.shields.io/badge/python-3.8~3.12-aff.svg)
 ![os](https://img.shields.io/badge/os-linux%2C%20win%2C%20mac-pink.svg)
 ![hardware](https://img.shields.io/badge/hardware-cpu%2C%20gpu%2C%20xpu%2C%20npu-yellow.svg)
 
-[![AI Studio](https://img.shields.io/badge/PaddleOCR-_Offiical_Website-1927BA?logo=data:image/png;base64,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&labelColor=white)](https://www.paddleocr.com)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/PaddlePaddle/PaddleOCR)
 [![License](https://img.shields.io/badge/license-Apache_2.0-green)](../LICENSE)
 
 </div>
@@ -29,35 +31,57 @@ English | [简体中文](./readme/README_cn.md) | [繁體中文](./readme/README
 
 
 
-**PaddleOCR converts PDF documents and images into structured, LLM-ready data (JSON/Markdown) with industry-leading accuracy. With 70k+ Stars and trusted by top-tier projects like Dify, RAGFlow, and Cherry Studio, PaddleOCR is the bedrock for building intelligent RAG and Agentic applications.**
+**This fork of [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) adapts the PP-OCRv5 recognition pipeline for Tamil and Dravidian scripts using Akshara (Unicode grapheme cluster) tokenization. The PP-OCRv5 model architecture, CTC decoding, losses, backbone, neck, and head are all unchanged — only the recognition tokenizer is swapped from character-level to grapheme-cluster-level.**
 
+> **Upstream**: PaddleOCR converts PDF documents and images into structured, LLM-ready data (JSON/Markdown) with industry-leading accuracy. With 70k+ Stars and trusted by top-tier projects like Dify, RAGFlow, and Cherry Studio, PaddleOCR is the bedrock for building intelligent RAG and Agentic applications.
 
-## Akshara / Dravidian Recognition Changes
+---
 
-This checkout has been adapted for Tamil/Dravidian recognition with Akshara tokenization while preserving the PP-OCRv5 recognition architecture.
+## 🏗️ Akshara / Dravidian Recognition
 
-What changed locally:
+### What This Fork Changes
 
-- Recognition labels are tokenized as Unicode grapheme clusters with `regex.findall(r"\X", text)`.
-- The PP-OCRv5 mobile and server recognition configs use the verified dictionary at `akshara/dict.txt`.
-- The Akshara PP-OCRv5 mobile config fine-tunes from `pretrain_models/ta_PP-OCRv5_mobile_rec_pretrained`.
-- The dictionary remains fixed at 355 Akshara tokens and must not be regenerated, reordered, or cleaned.
-- CTC decoding, blank handling, duplicate removal, confidence computation, backbone, neck, head, losses, and decoder algorithm remain unchanged.
-- Verification scripts are included for tokenizer, encoder, decoder, model shape, dummy forward pass, and CTC loss checks.
+| Aspect | Detail |
+| --- | --- |
+| **Tokenization** | Recognition labels are tokenized as Unicode grapheme clusters with `regex.findall(r"\X", text)` |
+| **Dictionary** | The verified Akshara dictionary at `akshara/dict.txt` (355 tokens, fixed — do not regenerate or reorder) |
+| **Training configs** | PP-OCRv5 mobile and server recognition configs point to `akshara/dict.txt` |
+| **Fine-tuning base** | The Akshara mobile config fine-tunes from `pretrain_models/ta_PP-OCRv5_mobile_rec_pretrained` |
+| **What is unchanged** | CTC decoding, blank handling, duplicate removal, confidence computation, backbone, neck, head, losses, decoder algorithm |
 
-Start here for this fork:
+### Key Files
 
-- [Akshara training and usage guide](./README_AKSHARA.md)
-- [Architecture notes](./architecture.md)
-- [Verification script: Akshara encode/decode](./verify_akshara.py)
-- [Verification script: model forward/loss](./verify_model.py)
+| File | Purpose |
+| --- | --- |
+| `akshara/dict.txt` | Active 355-token Akshara dictionary |
+| `configs/rec/PP-OCRv5/PP-OCRv5_mobile_rec.yml` | Mobile Akshara recognition training config |
+| `configs/rec/PP-OCRv5/PP-OCRv5_server_rec.yml` | Server Akshara recognition training config |
+| `verify_akshara.py` | Tokenizer, encoder, decoder round-trip verification |
+| `verify_model.py` | Model shape and CTC-loss verification |
+| `remote_gpu_execution/` | Four-file remote cluster workflow + README |
 
-Quick verification:
+### Fork Documentation
+
+- **[Akshara training and usage guide](./README_AKSHARA.md)** — Full training, evaluation, inference, and export instructions
+- **[Architecture notes](./architecture.md)** — Pipeline, data layer, and tokenization details
+- **[Remote GPU execution](./remote_gpu_execution/README.md)** — SLURM cluster training workflow
+
+### Quick Verification
 
 ```bash
 .venv/bin/python verify_akshara.py
 .venv/bin/python verify_model.py
 ```
+
+### Remote GPU Workflow
+
+1. Copy the four runnable files from `remote_gpu_execution/` to the cluster home/work directory:
+   `setup.sh`, `download_dataset.py`, `sanity_check.py`, and `train.py`.
+2. Run `bash setup.sh` on the internet-enabled login node.
+3. Run `sbatch train.py` on the offline GPU compute node.
+4. The scripts use `darknight054/indic-mozhi-ocr` with config `tamil`, convert it to PaddleOCR format, and train with `akshara/dict.txt`.
+
+---
 
 
 ## 🚀 Key Features

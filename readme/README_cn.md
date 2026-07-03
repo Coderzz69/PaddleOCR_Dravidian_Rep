@@ -23,8 +23,8 @@
 
 </div>
 
-
-
+> **🔀 本仓库是 PaddleOCR 的达罗毗荼语/泰米尔语 Akshara 分支**，使用 Unicode 字形簇（Akshara）分词进行泰米尔语识别。
+> 有关分支特有的文档，请参阅 [主 README](../README.md)、[Akshara 训练指南](../README_AKSHARA.md) 和 [架构说明](../architecture.md)。
 
 
 

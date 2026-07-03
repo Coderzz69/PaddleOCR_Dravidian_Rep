@@ -23,6 +23,9 @@
 
 </div>
 
+> **🔀 Este repositorio es el fork Dravídico/Tamil Akshara de PaddleOCR**, adaptado para el reconocimiento de texto tamil mediante tokenización por clusters de grafemas Unicode (Akshara).
+> Para documentación específica del fork, consulte el [README principal](../README.md), la [guía de entrenamiento Akshara](../README_AKSHARA.md) y las [notas de arquitectura](../architecture.md).
+
 
 
 

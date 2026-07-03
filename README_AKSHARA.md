@@ -1,12 +1,31 @@
-# Akshara PaddleOCR Training and Usage
+# Akshara PaddleOCR — Training and Usage Guide
 
-This repository is a PaddleOCR checkout adapted for Dravidian/Tamil recognition with Akshara tokenization.
+This repository is a PaddleOCR checkout adapted for Dravidian/Tamil recognition with Akshara tokenization. For an overview of this fork, see the [main README](./README.md). For architecture and data-layer details, see [architecture.md](./architecture.md).
+
+## Table of Contents
+
+- [What Is Already Configured](#what-is-already-configured)
+- [Prerequisites](#prerequisites)
+- [Verify The Setup](#verify-the-setup)
+- [Dataset Format](#dataset-format)
+- [Important Length Setting](#important-length-setting)
+- [Smoke Train](#smoke-train)
+- [Full Training](#full-training)
+- [Resume Training](#resume-training)
+- [Evaluate A Trained Checkpoint](#evaluate-a-trained-checkpoint)
+- [Run Recognition Inference](#run-recognition-inference)
+- [Export For Deployment](#export-for-deployment)
+- [Files To Know](#files-to-know)
+- [Latest Local Smoke Verification](#latest-local-smoke-verification)
+- [Troubleshooting](#troubleshooting)
+- [Guardrails](#guardrails)
 
 The OCR model architecture is unchanged. The recognition pipeline still uses PP-OCRv5, `MultiHead`, `CTCHead`, `CTCLoss`, and `CTCLabelDecode`. The only semantic change is that recognition labels are tokenized as Unicode grapheme clusters with:
 
 ```python
 regex.findall(r"\X", text)
 ```
+
 
 ## What Is Already Configured
 
@@ -40,7 +59,7 @@ pretrain_models/ta_PP-OCRv5_mobile_rec_pretrained.pdparams
 
 That pretrained model was trained with PaddleOCR's default Tamil character dictionary. Because the Akshara dictionary has a different vocabulary size, PaddleOCR loads all shape-compatible weights and skips the mismatched final classifier/token-embedding tensors. This is expected for Akshara fine-tuning.
 
-## Environment
+## Prerequisites
 
 The system Python in this workspace is Python 3.14, which does not have a compatible PaddlePaddle wheel. Use the repo-local virtual environment:
 
@@ -114,6 +133,21 @@ with images under:
 
 ```text
 train_data/
+```
+
+For remote GPU training, the helper scripts download and convert:
+
+```text
+darknight054/indic-mozhi-ocr
+config: tamil
+```
+
+The converted dataset is written to:
+
+```text
+train_data/indic_mozhi_tamil/train_list.txt
+train_data/indic_mozhi_tamil/val_list.txt
+train_data/indic_mozhi_tamil/test_list.txt
 ```
 
 ## Important Length Setting
@@ -194,6 +228,31 @@ train_data/<your images>
 ```
 
 For full audited labels, update `max_text_length` to `50`.
+
+For the remote cluster workflow, use the four runnable files in
+`remote_gpu_execution/`:
+
+```text
+setup.sh
+download_dataset.py
+sanity_check.py
+train.py
+```
+
+Copy those files to the cluster home/work directory. Then run:
+
+```bash
+bash setup.sh
+```
+
+on the login node with internet access, followed by:
+
+```bash
+sbatch train.py
+```
+
+on the GPU compute node. See `remote_gpu_execution/README.md` for the full
+cluster instructions.
 
 Single-device fine-tuning:
 
@@ -308,7 +367,7 @@ Export a trained checkpoint:
 ```bash
 .venv/bin/python tools/export_model.py \
   -c configs/rec/PP-OCRv5/PP-OCRv5_mobile_rec.yml \
-  -o Global.checkpoints=./output/PP-OCRv5_mobile_rec_akshara/best_accuracy \
+  -o Global.pretrained_model=./output/PP-OCRv5_mobile_rec_akshara/best_accuracy \
      Global.save_inference_dir=./inference/PP-OCRv5_mobile_rec_akshara
 ```
 
@@ -331,7 +390,61 @@ Keep `akshara/dict.txt` with the exported model or deployment config. The decode
 | `ppocr/postprocess/rec_postprocess.py` | CTC decoding and word helper utilities. |
 | `verify_akshara.py` | Tokenizer, encoder, decoder round-trip verification. |
 | `verify_model.py` | Model shape and CTC-loss verification. |
+| `remote_gpu_execution/setup.sh` | Login-node setup for remote GPU training. |
+| `remote_gpu_execution/download_dataset.py` | Converts `darknight054/indic-mozhi-ocr` Tamil data to PaddleOCR format. |
+| `remote_gpu_execution/sanity_check.py` | Checks repo, dictionary, weights, dataset, and Paddle runtime. |
+| `remote_gpu_execution/train.py` | SLURM-ready training/export entry point. |
+| `remote_gpu_execution/README.md` | Remote GPU execution instructions. |
 | `architecture.md` | Architecture and data-layer notes. |
+
+## Latest Local Smoke Verification
+
+The remote execution files were smoke-tested locally on CPU with:
+
+```text
+PaddlePaddle 3.3.1
+USE_GPU=False
+EPOCH_NUM=1
+BATCH_SIZE=1
+```
+
+Verified outcomes:
+
+- `sanity_check.py` passed.
+- `verify_akshara.py` passed.
+- `verify_model.py` passed.
+- `download_dataset.py` converted one sample each from the real Hugging Face train, validation, and test splits with `unknown=0`.
+- `train.py` completed a CPU training smoke run using `akshara/dict.txt`.
+- `train.py` exported an inference model to `inference/akshara_tamil_rec/`.
+
+## Troubleshooting
+
+### Shape mismatch warnings during training
+
+Warnings like the following are **expected** and safe to ignore:
+
+```text
+head.ctc_head.fc.weight ... [120, 356] ... loaded ... [120, 515]
+head.ctc_head.fc.bias ... [356] ... loaded ... [515]
+head.gtc_head.embedding.embedding.weight ... [360, 384] ... loaded ... [519, 384]
+head.gtc_head.tgt_word_prj.weight ... [384, 360] ... loaded ... [384, 519]
+```
+
+These occur because the Tamil pretrained model used a different dictionary size (515 tokens) than the Akshara dictionary (355 tokens). PaddleOCR skips these mismatched tensors and fine-tunes the compatible pretrained layers.
+
+### Python version errors
+
+The system Python may be Python 3.14, which does not have a compatible PaddlePaddle wheel. Always use the repo-local virtual environment:
+
+```bash
+.venv/bin/python --version   # Should show 3.12.x
+```
+
+See [Prerequisites](#prerequisites) for how to recreate the environment.
+
+### Wrong config file
+
+Do not use `configs/rec/PP-OCRv5/multi_language/ta_PP-OCRv5_mobile_rec.yaml` for Akshara training. That file is the stock Tamil character-dictionary config. For Akshara fine-tuning, always use `configs/rec/PP-OCRv5/PP-OCRv5_mobile_rec.yml`, which points to `akshara/dict.txt`.
 
 ## Guardrails
 

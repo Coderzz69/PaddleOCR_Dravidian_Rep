@@ -40,4 +40,4 @@ test_tipc/web/node_modules/
 .worktrees/
 
 
-remote_gpu_examples/
+remote_gpu_examples/wheelhouse/

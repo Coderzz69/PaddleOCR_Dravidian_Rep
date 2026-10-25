@@ -3,10 +3,7 @@
 A fork of [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) that teaches PP-OCRv5's text recogniser to
 read Tamil in the units people actually write it in: **aksharas** (syllables), not Unicode code points.
 
-<p align="center">
-  <a href="docs/demo.mp4"><img src="docs/demo.gif" width="800" alt="One Tamil word, read as 11 code points by stock PP-OCRv5 and as 6 aksharas by this fork"></a>
-  <br><a href="docs/demo.mp4"><b>▶ Watch the 34-second explainer (with sound)</b></a>
-</p>
+https://github.com/user-attachments/assets/6762a716-df35-460b-8787-2511c5432833
 
 ## The problem
 
